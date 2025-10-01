@@ -1,0 +1,140 @@
+html {
+    opacity: .3;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* カード形式のコンポーネント */
+.card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* メッセージボックス */
+.message-box {
+    border-width: 1px;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.message-box.success {
+    background-color: #d1fae5;
+    border-color: #34d399;
+    color: #065f46;
+}
+
+.message-text {
+    display: block;
+}
+
+/* ボタン */
+.button {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.primary-button {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+.primary-button:hover {
+    background-color: #2563eb;
+}
+
+.edit-button {
+    background-color: #f59e0b;
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.edit-button:hover {
+    background-color: #d97706;
+}
+
+.delete-button {
+    background-color: #ef4444;
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+}
+
+.delete-button:hover {
+    background-color: #dc2626;
+}
+
+/* ToDoリスト */
+.heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.todo-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-content {
+    flex: 1;
+}
+
+.todo-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.todo-description {
+    color: #4b5563;
+    margin-top: 0.25rem;
+}
+
+.todo-priority {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.todo-actions {
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.empty-message {
+    color: #6b7280;
+}
