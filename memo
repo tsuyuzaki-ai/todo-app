@@ -1,0 +1,8 @@
+
+編集したらGitHubへ
+git add .
+git commit -m "2025-10-15 家"
+git push origin main
+
+GitHubから最新版をダウンロード
+git pull origin main
